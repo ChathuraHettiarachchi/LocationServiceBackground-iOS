@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC81E34B2022D83800574C70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC81E34A2022D83800574C70 /* AppDelegate.swift */; };
+		EC81E34D2022D83800574C70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC81E34C2022D83800574C70 /* ViewController.swift */; };
+		EC81E3502022D83800574C70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC81E34E2022D83800574C70 /* Main.storyboard */; };
+		EC81E3522022D83800574C70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC81E3512022D83800574C70 /* Assets.xcassets */; };
+		EC81E3552022D83800574C70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC81E3532022D83800574C70 /* LaunchScreen.storyboard */; };
+		EC81E3602022D83800574C70 /* LocationTrackingBackgroundiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC81E35F2022D83800574C70 /* LocationTrackingBackgroundiOSTests.swift */; };
+		EC81E36B2022D83800574C70 /* LocationTrackingBackgroundiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC81E36A2022D83800574C70 /* LocationTrackingBackgroundiOSUITests.swift */; };
+		EC81E37A2022DD3800574C70 /* BackgroundLocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC81E3792022DD3800574C70 /* BackgroundLocationService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC81E35C2022D83800574C70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC81E33F2022D83800574C70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC81E3462022D83800574C70;
+			remoteInfo = LocationTrackingBackgroundiOS;
+		};
+		EC81E3672022D83800574C70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC81E33F2022D83800574C70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC81E3462022D83800574C70;
+			remoteInfo = LocationTrackingBackgroundiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC81E3472022D83800574C70 /* LocationTrackingBackgroundiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationTrackingBackgroundiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC81E34A2022D83800574C70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC81E34C2022D83800574C70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC81E34F2022D83800574C70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC81E3512022D83800574C70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC81E3542022D83800574C70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC81E3562022D83800574C70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC81E35B2022D83800574C70 /* LocationTrackingBackgroundiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocationTrackingBackgroundiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC81E35F2022D83800574C70 /* LocationTrackingBackgroundiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTrackingBackgroundiOSTests.swift; sourceTree = "<group>"; };
+		EC81E3612022D83800574C70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC81E3662022D83800574C70 /* LocationTrackingBackgroundiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocationTrackingBackgroundiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC81E36A2022D83800574C70 /* LocationTrackingBackgroundiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTrackingBackgroundiOSUITests.swift; sourceTree = "<group>"; };
+		EC81E36C2022D83800574C70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC81E3792022DD3800574C70 /* BackgroundLocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundLocationService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC81E3442022D83800574C70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC81E3582022D83800574C70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC81E3632022D83800574C70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC81E33E2022D83800574C70 = {
+			isa = PBXGroup;
+			children = (
+				EC81E3492022D83800574C70 /* LocationTrackingBackgroundiOS */,
+				EC81E35E2022D83800574C70 /* LocationTrackingBackgroundiOSTests */,
+				EC81E3692022D83800574C70 /* LocationTrackingBackgroundiOSUITests */,
+				EC81E3482022D83800574C70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC81E3482022D83800574C70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC81E3472022D83800574C70 /* LocationTrackingBackgroundiOS.app */,
+				EC81E35B2022D83800574C70 /* LocationTrackingBackgroundiOSTests.xctest */,
+				EC81E3662022D83800574C70 /* LocationTrackingBackgroundiOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC81E3492022D83800574C70 /* LocationTrackingBackgroundiOS */ = {
+			isa = PBXGroup;
+			children = (
+				EC81E3782022DC9D00574C70 /* Service */,
+				EC81E34A2022D83800574C70 /* AppDelegate.swift */,
+				EC81E34C2022D83800574C70 /* ViewController.swift */,
+				EC81E34E2022D83800574C70 /* Main.storyboard */,
+				EC81E3512022D83800574C70 /* Assets.xcassets */,
+				EC81E3532022D83800574C70 /* LaunchScreen.storyboard */,
+				EC81E3562022D83800574C70 /* Info.plist */,
+			);
+			path = LocationTrackingBackgroundiOS;
+			sourceTree = "<group>";
+		};
+		EC81E35E2022D83800574C70 /* LocationTrackingBackgroundiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC81E35F2022D83800574C70 /* LocationTrackingBackgroundiOSTests.swift */,
+				EC81E3612022D83800574C70 /* Info.plist */,
+			);
+			path = LocationTrackingBackgroundiOSTests;
+			sourceTree = "<group>";
+		};
+		EC81E3692022D83800574C70 /* LocationTrackingBackgroundiOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC81E36A2022D83800574C70 /* LocationTrackingBackgroundiOSUITests.swift */,
+				EC81E36C2022D83800574C70 /* Info.plist */,
+			);
+			path = LocationTrackingBackgroundiOSUITests;
+			sourceTree = "<group>";
+		};
+		EC81E3782022DC9D00574C70 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				EC81E3792022DD3800574C70 /* BackgroundLocationService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC81E3462022D83800574C70 /* LocationTrackingBackgroundiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC81E36F2022D83800574C70 /* Build configuration list for PBXNativeTarget "LocationTrackingBackgroundiOS" */;
+			buildPhases = (
+				EC81E3432022D83800574C70 /* Sources */,
+				EC81E3442022D83800574C70 /* Frameworks */,
+				EC81E3452022D83800574C70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocationTrackingBackgroundiOS;
+			productName = LocationTrackingBackgroundiOS;
+			productReference = EC81E3472022D83800574C70 /* LocationTrackingBackgroundiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC81E35A2022D83800574C70 /* LocationTrackingBackgroundiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC81E3722022D83800574C70 /* Build configuration list for PBXNativeTarget "LocationTrackingBackgroundiOSTests" */;
+			buildPhases = (
+				EC81E3572022D83800574C70 /* Sources */,
+				EC81E3582022D83800574C70 /* Frameworks */,
+				EC81E3592022D83800574C70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC81E35D2022D83800574C70 /* PBXTargetDependency */,
+			);
+			name = LocationTrackingBackgroundiOSTests;
+			productName = LocationTrackingBackgroundiOSTests;
+			productReference = EC81E35B2022D83800574C70 /* LocationTrackingBackgroundiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC81E3652022D83800574C70 /* LocationTrackingBackgroundiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC81E3752022D83800574C70 /* Build configuration list for PBXNativeTarget "LocationTrackingBackgroundiOSUITests" */;
+			buildPhases = (
+				EC81E3622022D83800574C70 /* Sources */,
+				EC81E3632022D83800574C70 /* Frameworks */,
+				EC81E3642022D83800574C70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC81E3682022D83800574C70 /* PBXTargetDependency */,
+			);
+			name = LocationTrackingBackgroundiOSUITests;
+			productName = LocationTrackingBackgroundiOSUITests;
+			productReference = EC81E3662022D83800574C70 /* LocationTrackingBackgroundiOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC81E33F2022D83800574C70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Chathura Hettiarachchi";
+				TargetAttributes = {
+					EC81E3462022D83800574C70 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					EC81E35A2022D83800574C70 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC81E3462022D83800574C70;
+					};
+					EC81E3652022D83800574C70 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC81E3462022D83800574C70;
+					};
+				};
+			};
+			buildConfigurationList = EC81E3422022D83800574C70 /* Build configuration list for PBXProject "LocationTrackingBackgroundiOS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC81E33E2022D83800574C70;
+			productRefGroup = EC81E3482022D83800574C70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC81E3462022D83800574C70 /* LocationTrackingBackgroundiOS */,
+				EC81E35A2022D83800574C70 /* LocationTrackingBackgroundiOSTests */,
+				EC81E3652022D83800574C70 /* LocationTrackingBackgroundiOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC81E3452022D83800574C70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC81E3552022D83800574C70 /* LaunchScreen.storyboard in Resources */,
+				EC81E3522022D83800574C70 /* Assets.xcassets in Resources */,
+				EC81E3502022D83800574C70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC81E3592022D83800574C70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC81E3642022D83800574C70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC81E3432022D83800574C70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC81E37A2022DD3800574C70 /* BackgroundLocationService.swift in Sources */,
+				EC81E34D2022D83800574C70 /* ViewController.swift in Sources */,
+				EC81E34B2022D83800574C70 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC81E3572022D83800574C70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC81E3602022D83800574C70 /* LocationTrackingBackgroundiOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC81E3622022D83800574C70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC81E36B2022D83800574C70 /* LocationTrackingBackgroundiOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC81E35D2022D83800574C70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC81E3462022D83800574C70 /* LocationTrackingBackgroundiOS */;
+			targetProxy = EC81E35C2022D83800574C70 /* PBXContainerItemProxy */;
+		};
+		EC81E3682022D83800574C70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC81E3462022D83800574C70 /* LocationTrackingBackgroundiOS */;
+			targetProxy = EC81E3672022D83800574C70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC81E34E2022D83800574C70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC81E34F2022D83800574C70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC81E3532022D83800574C70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC81E3542022D83800574C70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC81E36D2022D83800574C70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC81E36E2022D83800574C70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC81E3702022D83800574C70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5DH77MAYN5;
+				INFOPLIST_FILE = LocationTrackingBackgroundiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chootdev.LocationTrackingBackgroundiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC81E3712022D83800574C70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5DH77MAYN5;
+				INFOPLIST_FILE = LocationTrackingBackgroundiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chootdev.LocationTrackingBackgroundiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC81E3732022D83800574C70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5DH77MAYN5;
+				INFOPLIST_FILE = LocationTrackingBackgroundiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chootdev.LocationTrackingBackgroundiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LocationTrackingBackgroundiOS.app/LocationTrackingBackgroundiOS";
+			};
+			name = Debug;
+		};
+		EC81E3742022D83800574C70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5DH77MAYN5;
+				INFOPLIST_FILE = LocationTrackingBackgroundiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chootdev.LocationTrackingBackgroundiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LocationTrackingBackgroundiOS.app/LocationTrackingBackgroundiOS";
+			};
+			name = Release;
+		};
+		EC81E3762022D83800574C70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5DH77MAYN5;
+				INFOPLIST_FILE = LocationTrackingBackgroundiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chootdev.LocationTrackingBackgroundiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LocationTrackingBackgroundiOS;
+			};
+			name = Debug;
+		};
+		EC81E3772022D83800574C70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5DH77MAYN5;
+				INFOPLIST_FILE = LocationTrackingBackgroundiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chootdev.LocationTrackingBackgroundiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LocationTrackingBackgroundiOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC81E3422022D83800574C70 /* Build configuration list for PBXProject "LocationTrackingBackgroundiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC81E36D2022D83800574C70 /* Debug */,
+				EC81E36E2022D83800574C70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC81E36F2022D83800574C70 /* Build configuration list for PBXNativeTarget "LocationTrackingBackgroundiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC81E3702022D83800574C70 /* Debug */,
+				EC81E3712022D83800574C70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC81E3722022D83800574C70 /* Build configuration list for PBXNativeTarget "LocationTrackingBackgroundiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC81E3732022D83800574C70 /* Debug */,
+				EC81E3742022D83800574C70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC81E3752022D83800574C70 /* Build configuration list for PBXNativeTarget "LocationTrackingBackgroundiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC81E3762022D83800574C70 /* Debug */,
+				EC81E3772022D83800574C70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC81E33F2022D83800574C70 /* Project object */;
+}
