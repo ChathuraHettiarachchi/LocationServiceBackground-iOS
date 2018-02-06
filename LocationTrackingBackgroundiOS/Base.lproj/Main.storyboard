@@ -22,24 +22,31 @@
                                 <rect key="frame" x="8" y="609" width="359" height="50"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iFu-h1-a4z">
-                                        <rect key="frame" x="0.0" y="0.0" width="119.5" height="50"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="90" height="50"/>
                                         <state key="normal" title="Start"/>
                                         <connections>
                                             <action selector="onStartPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8H8-TW-CLu"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2cj-jS-WP7">
-                                        <rect key="frame" x="119.5" y="0.0" width="120" height="50"/>
+                                        <rect key="frame" x="90" y="0.0" width="89.5" height="50"/>
                                         <state key="normal" title="Clear"/>
                                         <connections>
                                             <action selector="onClearPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HVT-lA-vml"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GUf-RO-hVt">
-                                        <rect key="frame" x="239.5" y="0.0" width="119.5" height="50"/>
+                                        <rect key="frame" x="179.5" y="0.0" width="90" height="50"/>
                                         <state key="normal" title="End"/>
                                         <connections>
                                             <action selector="onEndPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W37-iF-bpi"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9vk-17-aBW">
+                                        <rect key="frame" x="269.5" y="0.0" width="89.5" height="50"/>
+                                        <state key="normal" title="Reload"/>
+                                        <connections>
+                                            <action selector="onReloadPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q69-CS-z5D"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -51,7 +58,7 @@
                                 <rect key="frame" x="8" y="28" width="359" height="573"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Press start" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OzB-s1-Yb3">
-                                        <rect key="frame" x="8" y="8" width="359" height="20.5"/>
+                                        <rect key="frame" x="12" y="8" width="359" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -61,7 +68,6 @@
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="OzB-s1-Yb3" secondAttribute="bottom" constant="544.5" id="AN2-RH-AbB"/>
                                     <constraint firstItem="OzB-s1-Yb3" firstAttribute="width" secondItem="6Vk-J4-jUB" secondAttribute="width" id="Xou-ah-IwJ"/>
-                                    <constraint firstItem="OzB-s1-Yb3" firstAttribute="leading" secondItem="6Vk-J4-jUB" secondAttribute="leading" constant="8" id="hnf-bv-q7X"/>
                                     <constraint firstItem="OzB-s1-Yb3" firstAttribute="top" secondItem="6Vk-J4-jUB" secondAttribute="top" constant="8" id="jo6-9M-fFe"/>
                                     <constraint firstAttribute="trailing" secondItem="OzB-s1-Yb3" secondAttribute="trailing" constant="309" id="vee-Wk-6Bk"/>
                                 </constraints>
@@ -74,6 +80,7 @@
                             <constraint firstItem="6Vk-J4-jUB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="Dzs-6c-i3o"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LPP-sL-STF" secondAttribute="trailing" constant="8" id="J32-IZ-h9d"/>
                             <constraint firstItem="LPP-sL-STF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="Kpe-wL-8YU"/>
+                            <constraint firstItem="OzB-s1-Yb3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="sMZ-l1-4rZ"/>
                             <constraint firstItem="LPP-sL-STF" firstAttribute="top" secondItem="6Vk-J4-jUB" secondAttribute="bottom" constant="8" id="uHH-hY-yb5"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6Vk-J4-jUB" secondAttribute="trailing" constant="8" id="vw1-Kb-p58"/>
                         </constraints>

@@ -1,0 +1,6 @@
+framework module OLCOrm {
+  umbrella header "OLCOrm-umbrella.h"
+
+  export *
+  module * { export * }
+}

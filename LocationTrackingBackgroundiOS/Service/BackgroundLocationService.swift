@@ -37,7 +37,6 @@ class BackgroundLocationService: NSObject, CLLocationManagerDelegate {
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]){
         
         if let newLocation = locations.last{
-            //print("(\(newLocation.coordinate.latitude), \(newLocation.coordinate.longitude))")
             self.delegate?.locationUpdates(locaiton: newLocation)
         }
         
@@ -53,7 +52,7 @@ class BackgroundLocationService: NSObject, CLLocationManagerDelegate {
     
     func startUpdatingLocation(){
         if CLLocationManager.locationServicesEnabled(){
-            locationManager.stopUpdatingLocation()
+//            locationManager.stopUpdatingLocation()
             locationManager.startUpdatingLocation()
         }else{
             showTurnOnLocationServiceAlert()
